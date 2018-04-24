@@ -1,5 +1,19 @@
 @media screen and (max-width: 767px ){
 
+	#welcome {
+		overflow-x: hidden;
+		position: relative;
+		.bg-elements {
+			.line-gradient {
+				&.line-1,
+				&.line-2 {
+					display: none;
+				}
+			}
+		}
+
+	}
+
 	#signup {
 		.signup-notice {
 			position: relative;

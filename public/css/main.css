@@ -167,7 +167,8 @@ body {
 
 #folio-med {
   background-color: #070708;
-  color: #fff; }
+  color: #fff;
+  overflow-x: hidden; }
 
 /* Headings*/
 h1,
@@ -1927,6 +1928,24 @@ select, textarea {
   width: 290px; }
 
 /* responsive */
+@media screen and (max-width: 992px) {
+  #welcome {
+    min-height: 767px; }
+    #welcome .bg-elements {
+      position: absolute; }
+      #welcome .bg-elements .line-gradient.line-1 {
+        bottom: 9%;
+        left: 4%; }
+      #welcome .bg-elements .line-gradient.line-2 {
+        bottom: 6%;
+        left: 10px; }
+      #welcome .bg-elements .triangle-grp.skyblue-2 {
+        display: none; }
+    #welcome .bg-elements + .full-height {
+      height: calc(100% - 90px); }
+    #welcome .footer {
+      position: relative;
+      bottom: auto; } }
 @media screen and (max-width: 790px) {
   #signup .step2 .wrapper {
     display: block; }
@@ -1934,6 +1953,12 @@ select, textarea {
       display: block;
       margin: 0 auto 30px auto; } }
 @media screen and (max-width: 767px) {
+  #welcome {
+    overflow-x: hidden;
+    position: relative; }
+    #welcome .bg-elements .line-gradient.line-1, #welcome .bg-elements .line-gradient.line-2 {
+      display: none; }
+
   #signup .signup-notice {
     position: relative;
     left: auto;

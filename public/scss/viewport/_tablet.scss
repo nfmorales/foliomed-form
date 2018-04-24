@@ -1,3 +1,35 @@
+@media screen and (max-width: 992px ){
+	#welcome {
+		min-height: 767px;
+		.bg-elements {
+			position: absolute;
+			.line-gradient {
+				&.line-1 {
+					bottom: 9%;
+					left: 4%;
+				}
+				&.line-2 {
+					bottom: 6%;
+					left: 10px;
+				}
+			}
+			.triangle-grp {
+				&.skyblue-2 {
+					display: none;
+				}
+			}
+		}
+		.bg-elements {
+			+ .full-height {
+				height: calc(100% - 90px);
+			}
+		}
+		.footer {
+			position: relative;
+			bottom: auto;
+		}
+	}
+}
 @media screen and (max-width: 790px){
 	#signup {
 		.step2 {
