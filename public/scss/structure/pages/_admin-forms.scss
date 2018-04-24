@@ -1,0 +1,177 @@
+#login,
+#forgot-password {
+	.bg-elements {
+	    background-color: $black_3;
+
+		.triangle-stripe-gradient-2 {
+			bottom: 28%;
+			height: 18%;
+			left: -147px;
+			position: $absolute;
+		}
+
+		.element-dots {
+			height: 13%;
+			position: $absolute;
+
+			&.dots-1 {
+
+				bottom: 10%;
+				left: 7%;
+			}
+
+			&.dots-2 {
+				top: 40%;
+				right: 14.5%;
+			}
+		}
+
+		.long-dots {
+			height: 44%;
+			position: $absolute;
+			right: -247px;
+			top: -228px;
+		}
+
+		.line-gradient {
+			background: linear-gradient(to right, $blue_2, $blue_1);
+			height: 2px;
+			position: $absolute;
+			width: 203px;
+
+			&.line-1 {
+				top: 7%;
+				right: 4%;
+			}
+
+			&.line-2 {
+				top: 10%;
+				right: 6%;
+			}
+		}
+
+		.lines {
+			height: 40%;
+			position: absolute;
+			right: -105px;
+			top: 49%;
+		}
+
+		.triangle-grp {
+			@extend %transform-rotate-180deg;
+			
+			left: 2%;
+			position: absolute;
+			top: -40px;
+
+			.shape {
+				border: 2px solid transparent;
+				border-bottom: 2px solid $blue_2;
+				height: 154px;
+				position: $relative;
+				width: 154px;
+
+				.triangle {
+					border: 2px solid transparent;
+					border-left: 2px solid $blue_2;
+					border-top: 2px solid  $blue_2;
+					bottom: -57px;
+					height: 110px;
+					left: 21px;
+					position: absolute;
+					width: 110px;
+
+					@extend %transform-rotate-45deg;
+				}
+			}
+		}
+
+		.triangle-solid {
+			border-left: 35px solid transparent;
+			border-right: 35px solid transparent;
+			border-bottom: 35px solid $blue_1;
+			height: 0px;
+			left: 24.3%;
+			position: absolute;
+			top: 45%;
+			width: 0px;
+		}
+	}
+
+	.logo-container {
+		p { 
+			color: $white_1;
+			font-size: 18px;
+		}
+	}
+	
+	/* Step 1*/
+	.info-box {
+		left: 60px;
+		opacity: 1; 
+		padding: 10px;
+		position: absolute;
+		text-align: center;
+		top: 158px;
+		width: 410px;
+		z-index: 1;
+
+		&.info-error {
+			background-color: #fcd3d2;
+			color: #b62524;
+		}
+	}
+
+	.footer {
+		float: left;
+		position: relative;
+		height: 110px;
+		width: 100%;
+
+		p { color: $gray_4 !important; }
+	}
+
+	.btn {
+		&:before {
+			background-color: #fff;
+			content: "";
+			height: 46px;
+			left: 3px;
+			position: absolute;
+			width: calc(100% - 6px);
+			top: 2px;
+			z-index: 0;
+		}
+		p {
+			color: $black_2;
+		}
+		&.disabled, 
+		&[disabled]{
+			opacity: 0.3;
+		}
+	}
+}
+
+.steps-container {
+	padding: 40px 60px;
+
+	h2 { font-family: $font_heebo, $font_sans_serif; }
+
+	&.step1 {
+		/* height: 530px; */
+		height: auto;
+		width: 530px;
+	}	
+
+	.password {
+		.icon {
+			color: $gray_1;
+			position: $absolute;
+			right: 15px;
+			top: 7px;
+
+			&.show { color: $black_2; }
+		}
+	}
+
+}

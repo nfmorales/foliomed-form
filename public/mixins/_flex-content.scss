@@ -1,0 +1,15 @@
+@mixin flexContent($flexContent){
+    
+    @if $flexContent == 'center'{
+        text-align: $flexContent;
+    } @else if $flexContent == 'flex-start' {
+        text-align: left;
+    } @else if $flexContent == 'flex-end' {
+        text-align: right;
+    } @else {
+        text-align: initial;
+    }
+    
+    -webkit-justify-content: $flexContent;
+            justify-content: $flexContent;
+}

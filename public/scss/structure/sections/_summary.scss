@@ -1,0 +1,25 @@
+.summary {
+	&:before {
+		background: linear-gradient(20deg, $blue_2, $blue_1);
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		content: "";
+		height: 5px;
+		left: 0;
+		position: $absolute;
+		top:0;
+		width: 290px;
+	}
+
+	&:after {
+		background: linear-gradient(20deg, $blue_2, $blue_1);
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		bottom: 0;
+		content: "";
+		height: 5px;
+		left: 0;
+		position: $absolute;
+		width: 290px;
+	}
+}

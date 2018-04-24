@@ -1,0 +1,137 @@
+#welcome {
+	h1 { font-family: $font_heebo, $font_sans_serif; }
+
+	.bg-elements {
+		background-color: $black_3;
+
+		.triangle-stripe-gradient {
+			height: 20%;
+			left: 20px;
+			position: $absolute;
+			top: -43px;
+		}
+
+		.element-dots {
+			height: 13%;
+			left: -90px;
+			position: $absolute;
+			top: 35%;
+		}
+
+		.line-gradient {
+			background: linear-gradient(to right, $blue_2, $blue_1);
+			height: 2px;
+			position: $absolute;
+			width: 203px;
+
+			&.line-1 {
+				bottom: 9%;
+				left: 12%;
+			}
+
+			&.line-2 {
+				bottom: 6%;
+				left: 10%;
+			}
+		}
+
+		.triangle-grp {
+			.shape {
+				border: 2px solid transparent;
+				height: 70px;
+				position: $relative;
+				width: 70px;
+
+				.triangle {
+					border: 2px solid transparent;
+					
+					bottom: -27px;
+					height: 50px;
+				    left: 8px;
+				    position: $absolute;
+					width: 50px;
+
+					@extend %transform-rotate-45deg;
+				}
+			}
+
+			&.blue {
+				position: $absolute;
+				right: 12%;
+				top: 26%;
+
+				.shape {
+					border-bottom: 2px solid $blue_1;
+
+					.triangle {
+						border-left: 2px solid $blue_1;
+						border-top: 2px solid  $blue_1;
+					}
+				}
+			}
+
+			&.skyblue {
+				left: 31%;
+				position: $absolute;
+				top: 17%;
+
+				.shape {
+					border-bottom: 2px solid $blue_2;
+
+					@extend %transform-rotate-180deg;
+
+					.triangle {
+						border-left: 2px solid $blue_2;
+						border-top: 2px solid  $blue_2;
+					}
+				}
+			}
+
+			&.skyblue-2 {
+				position: $absolute;
+				right: -380px;
+				top: 54%;
+
+				.shape {
+					border-bottom: 2px solid $blue_2;
+					height: 506px;
+					width: 506px;
+
+					@extend %transform-rotate-180deg;
+
+					.triangle {
+						border-left: 2px solid $blue_2;
+						border-top: 2px solid  $blue_2;
+						bottom: -181px;
+						height: 358px;
+						left: 72px;
+						width: 358px;
+					}
+				}
+			}
+		}
+	}
+
+	.btn-grp {
+		.element-dots {
+			height: 220%;
+			position: $absolute;
+			right: -120px;
+			top: -40px;
+			width: 100%;
+		}
+	}
+
+	.custom-width {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+
+	.footer {
+		bottom: 20px;
+		position: $absolute;
+		width: 100%;
+
+		p { color: $gray_4; }
+	}
+}

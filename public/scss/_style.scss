@@ -1,0 +1,489 @@
+/*Extend*/
+%transform-rotate-45deg {
+    -webkit-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg); 
+    -ms-transform: rotate(45deg); 
+    -o-transform: rotate(45deg); 
+    transform: rotate(45deg);
+}
+
+%transform-rotate-180deg {
+    -webkit-transform: rotate(180deg); 
+    -moz-transform: rotate(180deg); 
+    -ms-transform: rotate(180deg); 
+    -o-transform: rotate(180deg); 
+    transform: rotate(180deg);
+}
+
+%transform-skew--45 {
+    -webkit-transform: skew(-45deg);
+    -moz-transform: skew(-45deg);
+    -o-transform: skew(-45deg);
+    transform: skew(-45deg);
+}
+
+%transform-skew-45 {
+    -webkit-transform: skew(45deg);
+    -moz-transform: skew(45deg);
+    -o-transform: skew(45deg);
+    transform: skew(45deg);
+}
+
+
+/*Main Container*/
+/*---------------------------------------------------------------------------*/
+html { 
+    font-size: 100%;
+    height: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+
+body {
+    color: $black_2 !important;
+    font-family: $font_work_sans, $font_sans_serif !important;
+    font-size: 15px;
+    font-weight: 300 !important;
+    height: 100%;
+    line-height: 1 !important;
+    letter-spacing: 0 !important;
+    min-width: 100%;
+}
+
+.container-fluid {
+    padding: 0; 
+}
+
+#folio-med {
+    background-color: $black_3;
+    color: $white_1;
+}
+
+/* Headings*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font_work_sans, $font_sans_serif;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+}   
+
+h1 { 
+    font-size: 50px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+} 
+
+h2 {
+    font-size: 32px;
+    letter-spacing: 0.02em;
+    line-height: 1.875;
+}
+
+h3 {
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 1.25;
+}
+
+a,
+p { 
+    font-family: $font_work_sans, $font_sans_serif;
+}
+
+.f18 {
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 1.39;
+}
+
+.f16 {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 1.56;
+} 
+
+.f15 {
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    line-height: 1.14;
+}
+
+.f14 {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.8;
+}
+
+.f13 {
+    font-size: 13px;
+    letter-spacing: .03em;
+    line-height: 2.35;
+}
+
+.f12 {
+    font-size: 12px;
+    letter-spacing: .03em;
+    line-height: 2.35;
+}
+
+.f11 {
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 3.18;
+}
+
+
+
+/* Font-weights */
+.bold, 
+bold,
+b { font-weight: 700; }
+.regular {font-weight: 400; }
+.light {font-weight: 300; }
+em, .italic { font-style: italic; }
+
+/* Font colors */
+.t-white-1 { color: $white_1; }
+.t-black-1 { color: $black_1; }
+.t-black-2 { color: $black_2; }
+.t-gray-1  { color: $gray_1;  }
+.t-gray-2  { color: $gray_2;  }
+.t-gray-3  { color: $gray_3;  }
+.t-gray-4  { color: $gray_4;  }
+.t-red-1   { color: $red_1;   }
+.t-blue-1  { color: $blue_1;  }
+
+/* Background color */
+.bg-white-1 { background-color: $white_1; }
+.bg-black-1 { background-color: $black_1; }
+.bg-black-2 { background-color: $black_2; }
+.bg-gray-1  { background-color: $gray_1;  }
+.bg-gray-2  { background-color: $gray_2;  }
+.bg-gray-3  { background-color: $gray_3;  }
+
+/*Utilities*/
+/*----------------------------------------------------------------------------*/
+.full-height { height: 100%; }
+.full-width { width: 100%; }
+
+/*Letterspacing*/
+.no-letterspacing     { letter-spacing: 0 !important;      }
+.letterspacing-1em    { letter-spacing: 0.1em !important;  }
+.letterspacing-15em   { letter-spacing: 0.15em !important; }
+.letterspacing-2em    { letter-spacing: 0.2em !important;  }
+.letterspacing-25em   { letter-spacing: 0.25em !important; }
+.letterspacing-normal { letter-spacing: normal !important; }
+
+/*Flexbox*/ 
+.d-flex {
+    display: -webkit-box;      
+    display: -moz-box;        
+    display: -ms-flexbox;      
+    display: -webkit-flex;     
+    display: box;
+    display: flex;
+}
+
+.vertical-align { @include flexVerticalAlign(center); }
+
+.flex-content-end { @include flexContent(flex-end); }
+
+.flex-content-start { @include flexContent(flex-start); }
+
+.flex-content-center { @include flexContent(center); }
+
+.flex-content-spacebetween { @include flexContent(space-between); }
+
+.flex-content-spacearound { @include flexContent(space-around); }
+
+.flex-nowrap { @include flexWrap(nowrap); }
+
+.flex-wrap { @include flexWrap(wrap); }
+
+/*Display*/
+.d-block  { display: block !important; }
+
+.d-inline { display: inline-block !important; }
+
+.hidden   { display: none !important; }
+
+/*Position*/
+.pos-absolute { position: $absolute !important; }
+
+.pos-relative { position: $relative !important; }
+
+.pos-fixed    { position: $fixed !important; }
+
+/*Overflow*/
+.overflow-hidden { overflow: hidden; }
+
+/*Clickable Cursor*/
+.clickable { 
+    cursor: pointer;
+    outline: none;
+    @include userSelect(none);
+}
+
+.not-allowed { cursor: not-allowed !important; }
+
+.auto-cursor { cursor: auto !important; }
+
+.icon {
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+}
+
+.xs-icon { font-size: 12px; }
+.sm-icon { font-size: 16px; }
+.md-icon { font-size: 25px; }
+.lg-icon { font-size: 32px; }
+.xl-icon { font-size: 50px; }
+
+.icon.disabled:hover,
+.icon.disabled { 
+    color: #f5f6f9;
+    cursor: not-allowed;
+}
+
+/*Opacity*/
+.opacity-25 { opacity: 0.25; }
+.opacity-50 { opacity: 0.5;  }
+.opacity-75 { opacity: 0.75; }
+.opacity-1  { opacity: 1;    }
+
+/*Padding*/
+.padding            { padding: 10px 15px;}
+.no-padding         { padding: 0 !important ;}
+.no-pad-right       { padding-right: 0 !important; }
+.no-pad-left        { padding-left: 0 !important; }
+.no-pad-top         { padding-top: 0 !important; }
+.no-pad-bottom      { padding-bottom: 0 !important; }
+.half-pad-top       { padding-top: 5px; }
+.half-pad-bottom    { padding-bottom: 5px; }
+.half-pad-right     { padding-right: 5px; }
+.half-pad-left      { padding-left: 5px; }
+
+$max: 18;
+$step: 0;
+
+@for $i from $step through $max {
+    $value: ($i + 2) * 5;
+
+    @if $value % 2 == 0  {
+        @if $value == 10 {
+            .pad-top {
+                padding-top: #{($value)}px;
+            }
+        } @else {
+            .pad-top-#{$value/10} {
+                padding-top: #{($value)}px;
+            }
+        }
+    } @else {
+        .pad-top-#{$value} {
+            padding-top: #{($value)}px;
+        }
+    }
+}
+
+@for $i from $step through $max {
+    $value: ($i + 2) * 5;
+    
+    @if $value % 2 == 0  {
+        @if $value == 10 {
+            .pad-bottom {
+                padding-bottom: #{($value)}px;
+            }
+        } @else {
+            .pad-bottom-#{$value/10} {
+                padding-bottom: #{($value)}px;
+            }
+        }
+    } @else {
+        .pad-bottom-#{$value} {
+            padding-bottom: #{($value)}px;
+        }
+    }
+}
+
+@for $i from $step through $max {
+    $value: ($i + 1) * 5;
+    
+    @if $value % 2 == 0  {
+        @if $value == 10 {
+            .pad-right {
+                padding-right: #{($value)}px;
+            }
+        } @else {
+            .pad-right-#{$value/10} {
+                padding-right: #{($value)}px;
+            }
+        }
+    } @else {
+        .pad-right-#{$value} {
+            padding-right: #{($value)}px;
+        }
+    }
+}
+
+@for $i from $step through $max {
+    $value: ($i + 1) * 5;
+    
+    @if $value % 2 == 0  {
+        @if $value == 10 {
+            .pad-left {
+                padding-left: #{($value)}px;
+            }
+        } @else {
+            .pad-left-#{$value/10} {
+                padding-left: #{($value)}px;
+            }
+        }
+    } @else {
+        .pad-left-#{$value} {
+            padding-left: #{($value)}px;
+        }
+    }
+}
+
+/*Margins*/
+.no-margin   { margin: 0 !important; }
+.no-bottom   { margin-bottom: 0 !important; }
+.no-right    { margin-right: 0 !important; }
+.no-left     { margin-left: 0 !important; }
+.no-top      { margin-top: 0 !important; }
+.half-top    { margin-top: 5px; }
+.half-bottom { margin-bottom: 5px; }
+.half-right  { margin-right: 5px; }
+.half-left   { margin-left: 5px; }
+
+$max: 18;
+$step: 0;
+
+@for $i from $step through $max {
+    $value: ($i + 2) * 5;
+    
+    @if $value % 2 == 0  {
+        @if $value == 10 {
+            .add-top {
+                margin-top: #{($value)}px;
+            }
+        } @else {
+            .add-top-#{$value/10} {
+                margin-top: #{($value)}px;
+            }
+        }
+    } @else {
+        .add-top-#{$value} {
+            margin-top: #{($value)}px;
+        }
+    }
+}
+
+@for $i from $step through $max {
+    $value: ($i + 2) * 5;
+    
+    @if $value % 2 == 0  {
+        @if $value == 10 {
+            .add-bottom {
+                margin-bottom: #{($value)}px;
+            }
+        } @else {
+            .add-bottom-#{$value/10} {
+                margin-bottom: #{($value)}px;
+            }
+        }
+    } @else {
+        .add-bottom-#{$value} {
+            margin-bottom: #{($value)}px;
+        }
+    }
+}
+
+@for $i from $step through $max {
+    $value: ($i + 2) * 5;
+    
+    @if $value % 2 == 0  {
+        @if $value == 10 {
+            .add-right {
+                margin-right: #{($value)}px;
+            }
+        } @else {
+            .add-right-#{$value/10} {
+                margin-right: #{($value)}px;
+            }
+        }
+    } @else {
+        .add-right-#{$value} {
+            margin-right: #{($value)}px;
+        }
+    }
+}
+
+@for $i from $step through $max {
+    $value: ($i + 2) * 5;
+    
+    @if $value % 2 == 0  {
+        @if $value == 10 {
+            .add-left {
+                margin-left: #{($value)}px;
+            }
+        } @else {
+            .add-left-#{$value/10} {
+                margin-left: #{($value)}px;
+            }
+        }
+    } @else {
+        .add-left-#{$value} {
+            margin-left: #{($value)}px;
+        }
+    }
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+select, textarea {
+    background: $white_1;
+    border: 0 none;
+    border-bottom: 1px solid $gray_3;
+    color: $black_2;
+    display: block;
+    font-size: 15px;
+    font-family: $font_work_sans, $font_sans_serif;
+    font-weight: 300;
+    height: 50px;
+    outline: 0;
+    width: 100%;
+}
+
+.error-msg { 
+    display: none;
+    line-height: 1;
+    right: 0; 
+}
+
+.error {
+    textarea,
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="date"],
+    input[type="number"] {
+        border-color: $red_1;
+    }
+
+    .error-msg { display: block; }
+}
+
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }

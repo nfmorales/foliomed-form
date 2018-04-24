@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 280.108 141.363">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #007aff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="triangle" class="cls-1" d="M301.608,162.763,160.245,21.4,21.5,162.763H301.608Z" transform="translate(26.5 1693.6)"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-2" width="282" height="246"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="1" y1="1" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#007aff"/>
+      <stop offset="1" stop-color="#00f9ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_7" data-name="Mask Group 7" class="cls-3" transform="translate(-48 -1715)">
+    <g id="Repeat_Grid_17" data-name="Repeat Grid 17" class="cls-4" transform="translate(48 1714)">
+      <g transform="translate(-48 -1715)">
+        <rect id="Rectangle_25300" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1703)">
+        <rect id="Rectangle_25300-2" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1691)">
+        <rect id="Rectangle_25300-3" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1679)">
+        <rect id="Rectangle_25300-4" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1667)">
+        <rect id="Rectangle_25300-5" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1655)">
+        <rect id="Rectangle_25300-6" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1643)">
+        <rect id="Rectangle_25300-7" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1631)">
+        <rect id="Rectangle_25300-8" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1619)">
+        <rect id="Rectangle_25300-9" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1607)">
+        <rect id="Rectangle_25300-10" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1595)">
+        <rect id="Rectangle_25300-11" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1583)">
+        <rect id="Rectangle_25300-12" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1571)">
+        <rect id="Rectangle_25300-13" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1559)">
+        <rect id="Rectangle_25300-14" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1547)">
+        <rect id="Rectangle_25300-15" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1535)">
+        <rect id="Rectangle_25300-16" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1523)">
+        <rect id="Rectangle_25300-17" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1511)">
+        <rect id="Rectangle_25300-18" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1499)">
+        <rect id="Rectangle_25300-19" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1487)">
+        <rect id="Rectangle_25300-20" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+      <g transform="translate(-48 -1475)">
+        <rect id="Rectangle_25300-21" data-name="Rectangle 25300" class="cls-5" width="282" height="2" transform="translate(48 1715)"/>
+      </g>
+    </g>
+    <path id="solid_bg" data-name="solid bg" class="cls-1" d="M102.248,62.152,61.5,21.4l-40,40.752h80.748Z" transform="translate(125.863 1690.6)"/>
+  </g>
+</svg>

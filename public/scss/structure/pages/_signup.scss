@@ -1,0 +1,279 @@
+#signup {
+	.bg-elements {
+	    background-color: $black_3;
+
+		.triangle-stripe-gradient-2 {
+			bottom: 28%;
+			height: 18%;
+			left: -147px;
+			position: $absolute;
+		}
+
+		.element-dots {
+			height: 13%;
+			position: $absolute;
+
+			&.dots-1 {
+
+				bottom: 10%;
+				left: 7%;
+			}
+
+			&.dots-2 {
+				top: 40%;
+				right: 14.5%;
+			}
+		}
+
+		.long-dots {
+			height: 44%;
+			position: $absolute;
+			right: -247px;
+			top: -228px;
+		}
+
+		.line-gradient {
+			background: linear-gradient(to right, $blue_2, $blue_1);
+			height: 2px;
+			position: $absolute;
+			width: 203px;
+
+			&.line-1 {
+				top: 7%;
+				right: 4%;
+			}
+
+			&.line-2 {
+				top: 10%;
+				right: 6%;
+			}
+		}
+
+		.lines {
+			height: 40%;
+			position: absolute;
+			right: -105px;
+			top: 49%;
+		}
+
+		.triangle-grp {
+			@extend %transform-rotate-180deg;
+			
+			left: 2%;
+			position: absolute;
+			top: -40px;
+
+			.shape {
+				border: 2px solid transparent;
+				border-bottom: 2px solid $blue_2;
+				height: 154px;
+				position: $relative;
+				width: 154px;
+
+				.triangle {
+					border: 2px solid transparent;
+					border-left: 2px solid $blue_2;
+					border-top: 2px solid  $blue_2;
+					bottom: -57px;
+					height: 110px;
+					left: 21px;
+					position: absolute;
+					width: 110px;
+
+					@extend %transform-rotate-45deg;
+				}
+			}
+		}
+
+		.triangle-solid {
+			border-left: 35px solid transparent;
+			border-right: 35px solid transparent;
+			border-bottom: 35px solid $blue_1;
+			height: 0px;
+			left: 24.3%;
+			position: absolute;
+			top: 45%;
+			width: 0px;
+		}
+	}
+
+	.logo-container {
+		p { 
+			color: $white_1;
+			font-size: 18px;
+		}
+	}
+	
+	/* Step 1*/
+	.info-box {
+		padding: 10px;
+		text-align: center;
+
+		&.info-error {
+			background-color: #fcd3d2;
+			color: #b62524;
+		}
+	}
+
+
+	/* Step 2*/
+	.wrapper {
+		margin: 40px 0;
+
+		.plan-container {
+			background-color: $black_3;
+			height: 455px;
+			padding:20px;
+			text-align: center;
+			width: 260px;
+
+			.plan-title {
+				padding: 10px 0;
+
+				span {
+
+					&:before {
+						background-color: $blue_1;
+						content: "";
+						height: 1px;
+						left: -30px;
+						top: 10px;
+						position: $absolute;
+						width: 16px;
+					}
+					
+					&:after {
+						background-color: $blue_1;
+						content: "";
+						height: 1px;
+						right: -30px;
+						top: 10px;
+						position: $absolute;
+						width: 16px;
+					}
+				}
+			}
+
+			.plan-price {
+				font-family: $font_heebo, $font_sans_serif;
+
+				sup { 
+					font-size: 24px;
+					top: -17px;
+				}
+			}
+		}
+
+		.btn-grp {
+			.element-dots {
+				position: absolute;
+				right: -70px;
+				max-width: 226px;
+			}
+		}
+
+		.btn {
+			position: absolute;
+			left: -45px;
+			top: 35px;
+			box-shadow: 0 6px 8px -6px #000;
+			&:hover {
+				&:before {
+					content: '';
+					background: #000;
+					width: 96%;
+					position: absolute;
+					height: 92%;
+					top: 2px;
+					left: 5px;
+				}
+			}
+			&.selected {
+				&:before {
+					content: '';
+					background: #000;
+					width: 96%;
+					position: absolute;
+					height: 92%;
+					top: 2px;
+					left: 5px;
+				}
+				p{
+					&:after {
+						content: 'SELECTED';
+						color: #00A5FF;
+						font-size: 12px;
+						display: block;
+					}
+				}
+			}
+		}
+	}
+
+	.btn {
+		&.disabled, 
+		&[disabled]{
+			opacity: 0.3;
+		}
+	}
+
+	.signup-notice {
+		position: absolute;
+		bottom: 40px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		white-space: normal;
+	}
+
+	.step2 {
+		padding-bottom: 60px;
+	}
+
+	.footer {
+		float: left;
+		position: relative;
+		height: 110px;
+		width: 100%;
+
+		p { color: $gray_4 !important; }
+	}
+}
+
+.steps-container {
+	padding: 40px 60px;
+
+	h2 { font-family: $font_heebo, $font_sans_serif; }
+
+	&.step1 {
+		height: auto;
+		width: 100%;
+		max-width: 530px;
+	}
+
+	&.step2 {
+		padding-left: 110px;
+		padding-right: 110px;
+		height: auto;
+		width: 100%;
+		max-width: 840px;
+	}
+	
+
+	.password {
+		.icon {
+			color: $gray_1;
+			position: $absolute;
+			right: 15px;
+			top: 7px;
+
+			&.show { color: $black_2; }
+		}
+	}
+
+	.number-one {
+		width: 100%;
+		max-width: 22px;
+		vertical-align: middle;
+	}
+}
