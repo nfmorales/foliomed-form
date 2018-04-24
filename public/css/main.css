@@ -1062,7 +1062,7 @@ select, textarea {
       -webkit-text-fill-color: transparent; }
 
 #welcome {
-  overflow: hidden; }
+  overflow-x: hidden; }
   #welcome h1 {
     font-family: "Heebo", sans-serif; }
   #welcome .bg-elements {
@@ -1150,7 +1150,6 @@ select, textarea {
       color: #C7C7D7; }
 
 #signup {
-  overflow: hidden;
   /* Step 1*/
   /* Step 2*/ }
   #signup .bg-elements {
@@ -1335,7 +1334,7 @@ select, textarea {
 
 #payments,
 #payments-secure-login {
-  overflow: hidden; }
+  overflow-x: hidden; }
   #payments .bg-elements,
   #payments-secure-login .bg-elements {
     background-color: #070708; }
@@ -1588,7 +1587,7 @@ select, textarea {
 
 #payment-successful-plan,
 #payment-successful {
-  overflow: hidden; }
+  overflow-x: hidden; }
   #payment-successful-plan h1,
   #payment-successful h1 {
     font-family: "Heebo", sans-serif; }
@@ -1764,7 +1763,7 @@ select, textarea {
 
 #login,
 #forgot-password {
-  overflow: hidden;
+  overflow-x: hidden;
   /* Step 1*/ }
   #login .bg-elements,
   #forgot-password .bg-elements {
