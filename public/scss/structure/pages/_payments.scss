@@ -1,5 +1,6 @@
 #payments,
 #payments-secure-login {
+	overflow: hidden;
 	.bg-elements {
 		background-color: $black_3;
 
@@ -277,6 +278,7 @@
 
 #payment-successful-plan,
 #payment-successful {
+	overflow: hidden;
 	h1 { 
 		font-family: $font_heebo, $font_sans_serif; 
 		img {

@@ -1061,93 +1061,96 @@ select, textarea {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
-#welcome h1 {
-  font-family: "Heebo", sans-serif; }
-#welcome .bg-elements {
-  background-color: #070708; }
-  #welcome .bg-elements .triangle-stripe-gradient {
-    height: 20%;
-    left: 20px;
-    position: absolute;
-    top: -43px; }
-  #welcome .bg-elements .element-dots {
-    height: 13%;
-    left: -90px;
-    position: absolute;
-    top: 35%; }
-  #welcome .bg-elements .line-gradient {
-    background: linear-gradient(to right, #00F9FF, #007AFF);
-    height: 2px;
-    position: absolute;
-    width: 203px; }
-    #welcome .bg-elements .line-gradient.line-1 {
-      bottom: 9%;
-      left: 12%; }
-    #welcome .bg-elements .line-gradient.line-2 {
-      bottom: 6%;
-      left: 10%; }
-  #welcome .bg-elements .triangle-grp .shape {
-    border: 2px solid transparent;
-    height: 70px;
-    position: relative;
-    width: 70px; }
-    #welcome .bg-elements .triangle-grp .shape .triangle {
-      border: 2px solid transparent;
-      bottom: -27px;
-      height: 50px;
-      left: 8px;
+#welcome {
+  overflow: hidden; }
+  #welcome h1 {
+    font-family: "Heebo", sans-serif; }
+  #welcome .bg-elements {
+    background-color: #070708; }
+    #welcome .bg-elements .triangle-stripe-gradient {
+      height: 20%;
+      left: 20px;
       position: absolute;
-      width: 50px; }
-  #welcome .bg-elements .triangle-grp.blue {
+      top: -43px; }
+    #welcome .bg-elements .element-dots {
+      height: 13%;
+      left: -90px;
+      position: absolute;
+      top: 35%; }
+    #welcome .bg-elements .line-gradient {
+      background: linear-gradient(to right, #00F9FF, #007AFF);
+      height: 2px;
+      position: absolute;
+      width: 203px; }
+      #welcome .bg-elements .line-gradient.line-1 {
+        bottom: 9%;
+        left: 12%; }
+      #welcome .bg-elements .line-gradient.line-2 {
+        bottom: 6%;
+        left: 10%; }
+    #welcome .bg-elements .triangle-grp .shape {
+      border: 2px solid transparent;
+      height: 70px;
+      position: relative;
+      width: 70px; }
+      #welcome .bg-elements .triangle-grp .shape .triangle {
+        border: 2px solid transparent;
+        bottom: -27px;
+        height: 50px;
+        left: 8px;
+        position: absolute;
+        width: 50px; }
+    #welcome .bg-elements .triangle-grp.blue {
+      position: absolute;
+      right: 12%;
+      top: 26%; }
+      #welcome .bg-elements .triangle-grp.blue .shape {
+        border-bottom: 2px solid #007AFF; }
+        #welcome .bg-elements .triangle-grp.blue .shape .triangle {
+          border-left: 2px solid #007AFF;
+          border-top: 2px solid #007AFF; }
+    #welcome .bg-elements .triangle-grp.skyblue {
+      left: 31%;
+      position: absolute;
+      top: 17%; }
+      #welcome .bg-elements .triangle-grp.skyblue .shape {
+        border-bottom: 2px solid #00F9FF; }
+        #welcome .bg-elements .triangle-grp.skyblue .shape .triangle {
+          border-left: 2px solid #00F9FF;
+          border-top: 2px solid #00F9FF; }
+    #welcome .bg-elements .triangle-grp.skyblue-2 {
+      position: absolute;
+      right: -380px;
+      top: 54%; }
+      #welcome .bg-elements .triangle-grp.skyblue-2 .shape {
+        border-bottom: 2px solid #00F9FF;
+        height: 506px;
+        width: 506px; }
+        #welcome .bg-elements .triangle-grp.skyblue-2 .shape .triangle {
+          border-left: 2px solid #00F9FF;
+          border-top: 2px solid #00F9FF;
+          bottom: -181px;
+          height: 358px;
+          left: 72px;
+          width: 358px; }
+  #welcome .btn-grp .element-dots {
+    height: 220%;
     position: absolute;
-    right: 12%;
-    top: 26%; }
-    #welcome .bg-elements .triangle-grp.blue .shape {
-      border-bottom: 2px solid #007AFF; }
-      #welcome .bg-elements .triangle-grp.blue .shape .triangle {
-        border-left: 2px solid #007AFF;
-        border-top: 2px solid #007AFF; }
-  #welcome .bg-elements .triangle-grp.skyblue {
-    left: 31%;
+    right: -120px;
+    top: -40px;
+    width: 100%; }
+  #welcome .custom-width {
+    max-width: 500px;
+    margin: 0 auto; }
+  #welcome .footer {
+    bottom: 20px;
     position: absolute;
-    top: 17%; }
-    #welcome .bg-elements .triangle-grp.skyblue .shape {
-      border-bottom: 2px solid #00F9FF; }
-      #welcome .bg-elements .triangle-grp.skyblue .shape .triangle {
-        border-left: 2px solid #00F9FF;
-        border-top: 2px solid #00F9FF; }
-  #welcome .bg-elements .triangle-grp.skyblue-2 {
-    position: absolute;
-    right: -380px;
-    top: 54%; }
-    #welcome .bg-elements .triangle-grp.skyblue-2 .shape {
-      border-bottom: 2px solid #00F9FF;
-      height: 506px;
-      width: 506px; }
-      #welcome .bg-elements .triangle-grp.skyblue-2 .shape .triangle {
-        border-left: 2px solid #00F9FF;
-        border-top: 2px solid #00F9FF;
-        bottom: -181px;
-        height: 358px;
-        left: 72px;
-        width: 358px; }
-#welcome .btn-grp .element-dots {
-  height: 220%;
-  position: absolute;
-  right: -120px;
-  top: -40px;
-  width: 100%; }
-#welcome .custom-width {
-  max-width: 500px;
-  margin: 0 auto; }
-#welcome .footer {
-  bottom: 20px;
-  position: absolute;
-  width: 100%; }
-  #welcome .footer p {
-    color: #C7C7D7; }
+    width: 100%; }
+    #welcome .footer p {
+      color: #C7C7D7; }
 
 #signup {
+  overflow: hidden;
   /* Step 1*/
   /* Step 2*/ }
   #signup .bg-elements {
@@ -1330,172 +1333,175 @@ select, textarea {
     max-width: 22px;
     vertical-align: middle; }
 
-#payments .bg-elements,
-#payments-secure-login .bg-elements {
-  background-color: #070708; }
-  #payments .bg-elements .triangle-stripe-gradient-2,
-  #payments-secure-login .bg-elements .triangle-stripe-gradient-2 {
-    bottom: 28%;
-    height: 18%;
-    left: -147px;
-    position: absolute; }
-  #payments .bg-elements .element-dots,
-  #payments-secure-login .bg-elements .element-dots {
-    height: 13%;
-    position: absolute; }
-    #payments .bg-elements .element-dots.dots-1,
-    #payments-secure-login .bg-elements .element-dots.dots-1 {
-      bottom: 10%;
-      left: 7%; }
-    #payments .bg-elements .element-dots.dots-2,
-    #payments-secure-login .bg-elements .element-dots.dots-2 {
-      top: 40%;
-      right: 14.5%; }
-  #payments .bg-elements .long-dots,
-  #payments-secure-login .bg-elements .long-dots {
-    height: 44%;
-    position: absolute;
-    right: -247px;
-    top: -228px; }
-  #payments .bg-elements .line-gradient,
-  #payments-secure-login .bg-elements .line-gradient {
-    background: linear-gradient(to right, #00F9FF, #007AFF);
-    height: 2px;
-    position: absolute;
-    width: 203px; }
-    #payments .bg-elements .line-gradient.line-1,
-    #payments-secure-login .bg-elements .line-gradient.line-1 {
-      top: 7%;
-      right: 4%; }
-    #payments .bg-elements .line-gradient.line-2,
-    #payments-secure-login .bg-elements .line-gradient.line-2 {
-      top: 10%;
-      right: 6%; }
-  #payments .bg-elements .lines,
-  #payments-secure-login .bg-elements .lines {
-    height: 40%;
-    position: absolute;
-    right: -105px;
-    top: 49%; }
-  #payments .bg-elements .triangle-grp,
-  #payments-secure-login .bg-elements .triangle-grp {
-    left: 2%;
-    position: absolute;
-    top: -40px; }
-    #payments .bg-elements .triangle-grp .shape,
-    #payments-secure-login .bg-elements .triangle-grp .shape {
-      border: 2px solid transparent;
-      border-bottom: 2px solid #00F9FF;
-      height: 154px;
-      position: relative;
-      width: 154px; }
-      #payments .bg-elements .triangle-grp .shape .triangle,
-      #payments-secure-login .bg-elements .triangle-grp .shape .triangle {
+#payments,
+#payments-secure-login {
+  overflow: hidden; }
+  #payments .bg-elements,
+  #payments-secure-login .bg-elements {
+    background-color: #070708; }
+    #payments .bg-elements .triangle-stripe-gradient-2,
+    #payments-secure-login .bg-elements .triangle-stripe-gradient-2 {
+      bottom: 28%;
+      height: 18%;
+      left: -147px;
+      position: absolute; }
+    #payments .bg-elements .element-dots,
+    #payments-secure-login .bg-elements .element-dots {
+      height: 13%;
+      position: absolute; }
+      #payments .bg-elements .element-dots.dots-1,
+      #payments-secure-login .bg-elements .element-dots.dots-1 {
+        bottom: 10%;
+        left: 7%; }
+      #payments .bg-elements .element-dots.dots-2,
+      #payments-secure-login .bg-elements .element-dots.dots-2 {
+        top: 40%;
+        right: 14.5%; }
+    #payments .bg-elements .long-dots,
+    #payments-secure-login .bg-elements .long-dots {
+      height: 44%;
+      position: absolute;
+      right: -247px;
+      top: -228px; }
+    #payments .bg-elements .line-gradient,
+    #payments-secure-login .bg-elements .line-gradient {
+      background: linear-gradient(to right, #00F9FF, #007AFF);
+      height: 2px;
+      position: absolute;
+      width: 203px; }
+      #payments .bg-elements .line-gradient.line-1,
+      #payments-secure-login .bg-elements .line-gradient.line-1 {
+        top: 7%;
+        right: 4%; }
+      #payments .bg-elements .line-gradient.line-2,
+      #payments-secure-login .bg-elements .line-gradient.line-2 {
+        top: 10%;
+        right: 6%; }
+    #payments .bg-elements .lines,
+    #payments-secure-login .bg-elements .lines {
+      height: 40%;
+      position: absolute;
+      right: -105px;
+      top: 49%; }
+    #payments .bg-elements .triangle-grp,
+    #payments-secure-login .bg-elements .triangle-grp {
+      left: 2%;
+      position: absolute;
+      top: -40px; }
+      #payments .bg-elements .triangle-grp .shape,
+      #payments-secure-login .bg-elements .triangle-grp .shape {
         border: 2px solid transparent;
-        border-left: 2px solid #00F9FF;
-        border-top: 2px solid #00F9FF;
-        bottom: -57px;
-        height: 110px;
-        left: 21px;
-        position: absolute;
-        width: 110px; }
-  #payments .bg-elements .triangle-solid,
-  #payments-secure-login .bg-elements .triangle-solid {
-    border-left: 35px solid transparent;
-    border-right: 35px solid transparent;
-    border-bottom: 35px solid #007AFF;
-    height: 0px;
-    left: 24.3%;
-    position: absolute;
-    top: 45%;
-    width: 0px; }
-#payments .footer,
-#payments-secure-login .footer {
-  float: left;
-  position: relative;
-  height: 110px;
-  width: 100%; }
-  #payments .footer p,
-  #payments-secure-login .footer p {
-    color: #C7C7D7 !important; }
-#payments .summary,
-#payments-secure-login .summary {
-  background-color: #161619;
-  /* height: 430px; */
-  width: 290px;
-  padding: 0 15px; }
-  #payments .summary h3,
-  #payments-secure-login .summary h3 {
-    padding: 20px 0; }
-  #payments .summary table,
-  #payments-secure-login .summary table {
-    width: 100%; }
-    #payments .summary table td,
-    #payments-secure-login .summary table td {
-      position: relative; }
-      #payments .summary table td:first-child,
-      #payments-secure-login .summary table td:first-child {
-        text-align: left; }
-      #payments .summary table td:last-child,
-      #payments-secure-login .summary table td:last-child {
-        text-align: right; }
-  #payments .summary a,
-  #payments-secure-login .summary a {
-    color: #007AFF; }
-  #payments .summary .summary-details,
-  #payments-secure-login .summary .summary-details {
+        border-bottom: 2px solid #00F9FF;
+        height: 154px;
+        position: relative;
+        width: 154px; }
+        #payments .bg-elements .triangle-grp .shape .triangle,
+        #payments-secure-login .bg-elements .triangle-grp .shape .triangle {
+          border: 2px solid transparent;
+          border-left: 2px solid #00F9FF;
+          border-top: 2px solid #00F9FF;
+          bottom: -57px;
+          height: 110px;
+          left: 21px;
+          position: absolute;
+          width: 110px; }
+    #payments .bg-elements .triangle-solid,
+    #payments-secure-login .bg-elements .triangle-solid {
+      border-left: 35px solid transparent;
+      border-right: 35px solid transparent;
+      border-bottom: 35px solid #007AFF;
+      height: 0px;
+      left: 24.3%;
+      position: absolute;
+      top: 45%;
+      width: 0px; }
+  #payments .footer,
+  #payments-secure-login .footer {
+    float: left;
     position: relative;
-    border-top: 1px solid rgba(199, 199, 215, 0.1); }
-    #payments .summary .summary-details a,
-    #payments-secure-login .summary .summary-details a {
-      position: absolute;
-      display: inline-block;
-      top: -8px;
-      right: 0;
-      background: #161619;
-      padding: 0 0 0 10px;
-      font-size: 13px; }
-  #payments .summary .sub-total,
-  #payments-secure-login .summary .sub-total {
-    border-top: 1px solid rgba(199, 199, 215, 0.1); }
-    #payments .summary .sub-total input,
-    #payments-secure-login .summary .sub-total input {
-      background: transparent;
-      height: 16px;
-      color: #fff;
-      border: none;
-      font-size: 14px; }
-    #payments .summary .sub-total .f-icon-s_close_xs,
-    #payments .summary .sub-total .f-icon-e_arrowwithtail_right_m,
-    #payments-secure-login .summary .sub-total .f-icon-s_close_xs,
-    #payments-secure-login .summary .sub-total .f-icon-e_arrowwithtail_right_m {
-      opacity: 0.5;
-      cursor: pointer; }
-      #payments .summary .sub-total .f-icon-s_close_xs:hover,
-      #payments .summary .sub-total .f-icon-e_arrowwithtail_right_m:hover,
-      #payments-secure-login .summary .sub-total .f-icon-s_close_xs:hover,
-      #payments-secure-login .summary .sub-total .f-icon-e_arrowwithtail_right_m:hover {
-        opacity: 1; }
-  #payments .summary .total,
-  #payments-secure-login .summary .total {
-    border-top: 1px dashed rgba(199, 199, 215, 0.1);
-    position: relative; }
-    #payments .summary .total:before, #payments .summary .total:after,
-    #payments-secure-login .summary .total:before,
-    #payments-secure-login .summary .total:after {
-      content: '';
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
-      background: #070708;
-      position: absolute;
-      top: -7.5px; }
-    #payments .summary .total:before,
-    #payments-secure-login .summary .total:before {
-      left: -25px; }
-    #payments .summary .total:after,
-    #payments-secure-login .summary .total:after {
-      right: -25px; }
+    height: 110px;
+    width: 100%; }
+    #payments .footer p,
+    #payments-secure-login .footer p {
+      color: #C7C7D7 !important; }
+  #payments .summary,
+  #payments-secure-login .summary {
+    background-color: #161619;
+    /* height: 430px; */
+    width: 290px;
+    padding: 0 15px; }
+    #payments .summary h3,
+    #payments-secure-login .summary h3 {
+      padding: 20px 0; }
+    #payments .summary table,
+    #payments-secure-login .summary table {
+      width: 100%; }
+      #payments .summary table td,
+      #payments-secure-login .summary table td {
+        position: relative; }
+        #payments .summary table td:first-child,
+        #payments-secure-login .summary table td:first-child {
+          text-align: left; }
+        #payments .summary table td:last-child,
+        #payments-secure-login .summary table td:last-child {
+          text-align: right; }
+    #payments .summary a,
+    #payments-secure-login .summary a {
+      color: #007AFF; }
+    #payments .summary .summary-details,
+    #payments-secure-login .summary .summary-details {
+      position: relative;
+      border-top: 1px solid rgba(199, 199, 215, 0.1); }
+      #payments .summary .summary-details a,
+      #payments-secure-login .summary .summary-details a {
+        position: absolute;
+        display: inline-block;
+        top: -8px;
+        right: 0;
+        background: #161619;
+        padding: 0 0 0 10px;
+        font-size: 13px; }
+    #payments .summary .sub-total,
+    #payments-secure-login .summary .sub-total {
+      border-top: 1px solid rgba(199, 199, 215, 0.1); }
+      #payments .summary .sub-total input,
+      #payments-secure-login .summary .sub-total input {
+        background: transparent;
+        height: 16px;
+        color: #fff;
+        border: none;
+        font-size: 14px; }
+      #payments .summary .sub-total .f-icon-s_close_xs,
+      #payments .summary .sub-total .f-icon-e_arrowwithtail_right_m,
+      #payments-secure-login .summary .sub-total .f-icon-s_close_xs,
+      #payments-secure-login .summary .sub-total .f-icon-e_arrowwithtail_right_m {
+        opacity: 0.5;
+        cursor: pointer; }
+        #payments .summary .sub-total .f-icon-s_close_xs:hover,
+        #payments .summary .sub-total .f-icon-e_arrowwithtail_right_m:hover,
+        #payments-secure-login .summary .sub-total .f-icon-s_close_xs:hover,
+        #payments-secure-login .summary .sub-total .f-icon-e_arrowwithtail_right_m:hover {
+          opacity: 1; }
+    #payments .summary .total,
+    #payments-secure-login .summary .total {
+      border-top: 1px dashed rgba(199, 199, 215, 0.1);
+      position: relative; }
+      #payments .summary .total:before, #payments .summary .total:after,
+      #payments-secure-login .summary .total:before,
+      #payments-secure-login .summary .total:after {
+        content: '';
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #070708;
+        position: absolute;
+        top: -7.5px; }
+      #payments .summary .total:before,
+      #payments-secure-login .summary .total:before {
+        left: -25px; }
+      #payments .summary .total:after,
+      #payments-secure-login .summary .total:after {
+        right: -25px; }
 
 .steps-container.step3 {
   height: 985px;
@@ -1580,119 +1586,122 @@ select, textarea {
 #payments-secure-login .add-new-card-form {
   display: none; }
 
-#payment-successful-plan h1,
-#payment-successful h1 {
-  font-family: "Heebo", sans-serif; }
-  #payment-successful-plan h1 img,
-  #payment-successful h1 img {
-    width: 100%;
-    max-width: 60px;
-    position: relative;
-    bottom: -5px; }
-#payment-successful-plan .bg-elements,
-#payment-successful .bg-elements {
-  background-color: #070708; }
-  #payment-successful-plan .bg-elements .triangle-stripe-gradient,
-  #payment-successful .bg-elements .triangle-stripe-gradient {
-    height: 20%;
-    left: 20px;
-    position: absolute;
-    top: -43px; }
-  #payment-successful-plan .bg-elements .element-dots,
-  #payment-successful .bg-elements .element-dots {
-    height: 13%;
-    left: -90px;
-    position: absolute;
-    top: 35%; }
-  #payment-successful-plan .bg-elements .line-gradient,
-  #payment-successful .bg-elements .line-gradient {
-    background: linear-gradient(to right, #00F9FF, #007AFF);
-    height: 2px;
-    position: absolute;
-    width: 203px; }
-    #payment-successful-plan .bg-elements .line-gradient.line-1,
-    #payment-successful .bg-elements .line-gradient.line-1 {
-      bottom: 9%;
-      left: 12%; }
-    #payment-successful-plan .bg-elements .line-gradient.line-2,
-    #payment-successful .bg-elements .line-gradient.line-2 {
-      bottom: 6%;
-      left: 10%; }
-  #payment-successful-plan .bg-elements .triangle-grp .shape,
-  #payment-successful .bg-elements .triangle-grp .shape {
-    border: 2px solid transparent;
-    height: 70px;
-    position: relative;
-    width: 70px; }
-    #payment-successful-plan .bg-elements .triangle-grp .shape .triangle,
-    #payment-successful .bg-elements .triangle-grp .shape .triangle {
-      border: 2px solid transparent;
-      bottom: -27px;
-      height: 50px;
-      left: 8px;
+#payment-successful-plan,
+#payment-successful {
+  overflow: hidden; }
+  #payment-successful-plan h1,
+  #payment-successful h1 {
+    font-family: "Heebo", sans-serif; }
+    #payment-successful-plan h1 img,
+    #payment-successful h1 img {
+      width: 100%;
+      max-width: 60px;
+      position: relative;
+      bottom: -5px; }
+  #payment-successful-plan .bg-elements,
+  #payment-successful .bg-elements {
+    background-color: #070708; }
+    #payment-successful-plan .bg-elements .triangle-stripe-gradient,
+    #payment-successful .bg-elements .triangle-stripe-gradient {
+      height: 20%;
+      left: 20px;
       position: absolute;
-      width: 50px; }
-  #payment-successful-plan .bg-elements .triangle-grp.blue,
-  #payment-successful .bg-elements .triangle-grp.blue {
+      top: -43px; }
+    #payment-successful-plan .bg-elements .element-dots,
+    #payment-successful .bg-elements .element-dots {
+      height: 13%;
+      left: -90px;
+      position: absolute;
+      top: 35%; }
+    #payment-successful-plan .bg-elements .line-gradient,
+    #payment-successful .bg-elements .line-gradient {
+      background: linear-gradient(to right, #00F9FF, #007AFF);
+      height: 2px;
+      position: absolute;
+      width: 203px; }
+      #payment-successful-plan .bg-elements .line-gradient.line-1,
+      #payment-successful .bg-elements .line-gradient.line-1 {
+        bottom: 9%;
+        left: 12%; }
+      #payment-successful-plan .bg-elements .line-gradient.line-2,
+      #payment-successful .bg-elements .line-gradient.line-2 {
+        bottom: 6%;
+        left: 10%; }
+    #payment-successful-plan .bg-elements .triangle-grp .shape,
+    #payment-successful .bg-elements .triangle-grp .shape {
+      border: 2px solid transparent;
+      height: 70px;
+      position: relative;
+      width: 70px; }
+      #payment-successful-plan .bg-elements .triangle-grp .shape .triangle,
+      #payment-successful .bg-elements .triangle-grp .shape .triangle {
+        border: 2px solid transparent;
+        bottom: -27px;
+        height: 50px;
+        left: 8px;
+        position: absolute;
+        width: 50px; }
+    #payment-successful-plan .bg-elements .triangle-grp.blue,
+    #payment-successful .bg-elements .triangle-grp.blue {
+      position: absolute;
+      right: 12%;
+      top: 26%; }
+      #payment-successful-plan .bg-elements .triangle-grp.blue .shape,
+      #payment-successful .bg-elements .triangle-grp.blue .shape {
+        border-bottom: 2px solid #007AFF; }
+        #payment-successful-plan .bg-elements .triangle-grp.blue .shape .triangle,
+        #payment-successful .bg-elements .triangle-grp.blue .shape .triangle {
+          border-left: 2px solid #007AFF;
+          border-top: 2px solid #007AFF; }
+    #payment-successful-plan .bg-elements .triangle-grp.skyblue,
+    #payment-successful .bg-elements .triangle-grp.skyblue {
+      left: 31%;
+      position: absolute;
+      top: 17%; }
+      #payment-successful-plan .bg-elements .triangle-grp.skyblue .shape,
+      #payment-successful .bg-elements .triangle-grp.skyblue .shape {
+        border-bottom: 2px solid #00F9FF; }
+        #payment-successful-plan .bg-elements .triangle-grp.skyblue .shape .triangle,
+        #payment-successful .bg-elements .triangle-grp.skyblue .shape .triangle {
+          border-left: 2px solid #00F9FF;
+          border-top: 2px solid #00F9FF; }
+    #payment-successful-plan .bg-elements .triangle-grp.skyblue-2,
+    #payment-successful .bg-elements .triangle-grp.skyblue-2 {
+      position: absolute;
+      right: -380px;
+      top: 54%; }
+      #payment-successful-plan .bg-elements .triangle-grp.skyblue-2 .shape,
+      #payment-successful .bg-elements .triangle-grp.skyblue-2 .shape {
+        border-bottom: 2px solid #00F9FF;
+        height: 506px;
+        width: 506px; }
+        #payment-successful-plan .bg-elements .triangle-grp.skyblue-2 .shape .triangle,
+        #payment-successful .bg-elements .triangle-grp.skyblue-2 .shape .triangle {
+          border-left: 2px solid #00F9FF;
+          border-top: 2px solid #00F9FF;
+          bottom: -181px;
+          height: 358px;
+          left: 72px;
+          width: 358px; }
+  #payment-successful-plan .btn-grp .element-dots,
+  #payment-successful .btn-grp .element-dots {
+    height: 220%;
     position: absolute;
-    right: 12%;
-    top: 26%; }
-    #payment-successful-plan .bg-elements .triangle-grp.blue .shape,
-    #payment-successful .bg-elements .triangle-grp.blue .shape {
-      border-bottom: 2px solid #007AFF; }
-      #payment-successful-plan .bg-elements .triangle-grp.blue .shape .triangle,
-      #payment-successful .bg-elements .triangle-grp.blue .shape .triangle {
-        border-left: 2px solid #007AFF;
-        border-top: 2px solid #007AFF; }
-  #payment-successful-plan .bg-elements .triangle-grp.skyblue,
-  #payment-successful .bg-elements .triangle-grp.skyblue {
-    left: 31%;
+    right: -120px;
+    top: -40px;
+    width: 100%; }
+  #payment-successful-plan .custom-width,
+  #payment-successful .custom-width {
+    max-width: 520px;
+    margin: 0 auto; }
+  #payment-successful-plan .footer,
+  #payment-successful .footer {
+    bottom: 20px;
     position: absolute;
-    top: 17%; }
-    #payment-successful-plan .bg-elements .triangle-grp.skyblue .shape,
-    #payment-successful .bg-elements .triangle-grp.skyblue .shape {
-      border-bottom: 2px solid #00F9FF; }
-      #payment-successful-plan .bg-elements .triangle-grp.skyblue .shape .triangle,
-      #payment-successful .bg-elements .triangle-grp.skyblue .shape .triangle {
-        border-left: 2px solid #00F9FF;
-        border-top: 2px solid #00F9FF; }
-  #payment-successful-plan .bg-elements .triangle-grp.skyblue-2,
-  #payment-successful .bg-elements .triangle-grp.skyblue-2 {
-    position: absolute;
-    right: -380px;
-    top: 54%; }
-    #payment-successful-plan .bg-elements .triangle-grp.skyblue-2 .shape,
-    #payment-successful .bg-elements .triangle-grp.skyblue-2 .shape {
-      border-bottom: 2px solid #00F9FF;
-      height: 506px;
-      width: 506px; }
-      #payment-successful-plan .bg-elements .triangle-grp.skyblue-2 .shape .triangle,
-      #payment-successful .bg-elements .triangle-grp.skyblue-2 .shape .triangle {
-        border-left: 2px solid #00F9FF;
-        border-top: 2px solid #00F9FF;
-        bottom: -181px;
-        height: 358px;
-        left: 72px;
-        width: 358px; }
-#payment-successful-plan .btn-grp .element-dots,
-#payment-successful .btn-grp .element-dots {
-  height: 220%;
-  position: absolute;
-  right: -120px;
-  top: -40px;
-  width: 100%; }
-#payment-successful-plan .custom-width,
-#payment-successful .custom-width {
-  max-width: 520px;
-  margin: 0 auto; }
-#payment-successful-plan .footer,
-#payment-successful .footer {
-  bottom: 20px;
-  position: absolute;
-  width: 100%; }
-  #payment-successful-plan .footer p,
-  #payment-successful .footer p {
-    color: #C7C7D7; }
+    width: 100%; }
+    #payment-successful-plan .footer p,
+    #payment-successful .footer p {
+      color: #C7C7D7; }
 
 #payment-successful .custom-width {
   width: 540px; }
@@ -1755,6 +1764,7 @@ select, textarea {
 
 #login,
 #forgot-password {
+  overflow: hidden;
   /* Step 1*/ }
   #login .bg-elements,
   #forgot-password .bg-elements {
