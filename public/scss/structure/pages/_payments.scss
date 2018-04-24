@@ -246,8 +246,7 @@
 				&:before { visibility: hidden; }
 				a {
 					color: #000;
-					&:hover,
-					&.selected { color: #007AFF; }
+					&:hover { color: #007AFF; }
 				}
 				&.selected {
 					background: transparent;
@@ -257,6 +256,8 @@
 						border-color: $blue_1;
 					}
 					&:after { color: $white_1; margin-top: -3px; }
+					a, a:active { color: #007AFF; }
+					a:active { text-decoration: none; }
 				}
 			}
 		}

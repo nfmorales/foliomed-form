@@ -1558,7 +1558,7 @@ select, textarea {
         visibility: hidden; }
       #payments-secure-login .card-selection .card-item.add-new-card a {
         color: #000; }
-        #payments-secure-login .card-selection .card-item.add-new-card a:hover, #payments-secure-login .card-selection .card-item.add-new-card a.selected {
+        #payments-secure-login .card-selection .card-item.add-new-card a:hover {
           color: #007AFF; }
       #payments-secure-login .card-selection .card-item.add-new-card.selected {
         background: transparent; }
@@ -1569,6 +1569,10 @@ select, textarea {
         #payments-secure-login .card-selection .card-item.add-new-card.selected:after {
           color: #fff;
           margin-top: -3px; }
+        #payments-secure-login .card-selection .card-item.add-new-card.selected a, #payments-secure-login .card-selection .card-item.add-new-card.selected a:active {
+          color: #007AFF; }
+        #payments-secure-login .card-selection .card-item.add-new-card.selected a:active {
+          text-decoration: none; }
 #payments-secure-login .steps-container.step3 {
   height: auto; }
 #payments-secure-login .btn:hover p {
